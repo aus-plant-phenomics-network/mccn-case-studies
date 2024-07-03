@@ -1,4 +1,4 @@
-![image](https://github.com/aus-plant-phenomics-network/mccn-case-studies/assets/4349417/2cfeae0e-0d7f-4bfa-bb99-142918bf3438)# Multi-scalar Crop Characterisation Network (MCCN)
+# Multi-scalar Crop Characterisation Network (MCCN)
 
 ## Purpose
 Supporting the agricultural sector to understand crop-environment relationships.
