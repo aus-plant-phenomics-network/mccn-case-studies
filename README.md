@@ -40,8 +40,8 @@ Standardising access to Australia’s crop research data. Developing a framework
 
 ## Key Resources
 - [MCCN Case Studies](https://uao365.sharepoint.com/:w:/r/sites/DataTeamtest/Shared%20Documents/MCCN/Reports/Cases/MCCN%20Case%20Studies.docx?d=wc446740149d040c79f3a0208a8914c05&csf=1&web=1&e=kMsnFR)
-- [Software Specificatio](https://uao365.sharepoint.com/:w:/r/sites/DataTeamtest/Shared%20Documents/MCCN/Reports/MCCN%20Software%20Specification%20v.%201.1.docx?d=w48b2fad3681845d78129b23bfa7efa36&csf=1&web=1&e=PuMVm6)
+- [Software Specification](https://uao365.sharepoint.com/:w:/r/sites/DataTeamtest/Shared%20Documents/MCCN/Reports/MCCN%20Software%20Specification%20v.%201.1.docx?d=w48b2fad3681845d78129b23bfa7efa36&csf=1&web=1&e=PuMVm6)
 - [Data Sharing Policy and Metadata Requirement](https://uao365.sharepoint.com/:w:/r/sites/DataTeamtest/Shared%20Documents/MCCN/Reports/MCCN%20Data%20Sharing%20Policy%20and%20Metadata%20Requirements%20v.%201.1.docx?d=w685f01f15fcb4de9a2945de6a5385971&csf=1&web=1&e=dgJePi)
-- [Components]
+- Components
 ![image](https://github.com/aus-plant-phenomics-network/mccn-case-studies/assets/4349417/86533a74-6a08-4c72-9ac9-5a43f87a2230)
 
