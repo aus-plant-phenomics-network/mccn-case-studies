@@ -1,0 +1,21 @@
+[project]
+name = "mccn-case-studies"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "APPN", email = "hoangson.le@adelaide.edu.au"},
+]
+dependencies = ["mccn-engine>=0.1.9"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[dependency-groups]
+jupyter = [
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+]
