@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "APPN", email = "hoangson.le@adelaide.edu.au"},
 ]
-dependencies = ["mccn-engine>=0.1.9"]
+dependencies = ["mccn-engine==0.1.9"]
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}

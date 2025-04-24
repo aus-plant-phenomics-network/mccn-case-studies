@@ -5,7 +5,7 @@
 groups = ["default", "jupyter"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:7a6599450871641b93eb50277faf8bb391b1716922e4fa5ea1446ff336e10545"
+content_hash = "sha256:2803fdd971e765bffe65e770b97bf62f8b448e3cdf44c7d093a908f7fe67c155"
 
 [[metadata.targets]]
 requires_python = "==3.11.*"
