@@ -5,7 +5,6 @@ description = "Default template for PDM package"
 authors = [
     {name = "APPN", email = "hoangson.le@adelaide.edu.au"},
 ]
-dependencies = ["mccn-engine>=0.1.10"]
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
@@ -18,8 +17,14 @@ distribution = false
 jupyter = [
     "jupyterlab>=4.4.1",
 ]
+dev = [
+    "-e file:///${PROJECT_ROOT}/../mccn-engine#egg=mccn-engine",
+]
 [dependency-groups]
 jupyter = [
     "ipykernel>=6.29.5",
     "jupyter>=1.1.1",
+]
+dev = [
+    "mccn-engine>=0.1.10",
 ]
