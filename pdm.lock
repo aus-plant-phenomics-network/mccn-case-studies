@@ -5,7 +5,7 @@
 groups = ["default", "jupyter"]
 strategy = ["inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:caf7a7346ec6ca79cf2c43e083ed983a78740c162f661a21ab53c600188e40df"
+content_hash = "sha256:1049900e3d3e1f1e1757d5d27fb8d87f339ed53d6c97800c6cde309225569440"
 
 [[package]]
 name = "affine"
@@ -1110,7 +1110,7 @@ files = [
 
 [[package]]
 name = "mccn-engine"
-version = "0.1.9"
+version = "0.1.10"
 requires_python = ">=3.11"
 summary = "mccn engine"
 groups = ["default"]
@@ -1120,12 +1120,12 @@ dependencies = [
     "matplotlib>=3.10.1",
     "odc-stac>=0.3.10",
     "pystac-client>=0.8.6",
-    "pystac-generator>=0.3.28",
+    "pystac-generator>=0.3.31",
     "scipy>=1.15.2",
 ]
 files = [
-    {file = "mccn_engine-0.1.9-py3-none-any.whl", hash = "sha256:32c5f8de12f8af22a5baf05fb0cc2f9757f6ba40bcf93dd30c89d31a25a5e293"},
-    {file = "mccn_engine-0.1.9.tar.gz", hash = "sha256:718c5ece945939529c0f96e42705efa958b2b754dee1e6d32b21766928ac7310"},
+    {file = "mccn_engine-0.1.10-py3-none-any.whl", hash = "sha256:6620735088d89808d6775897bc42ec94d1aeef8d9395e27e7ae29acbe3396f29"},
+    {file = "mccn_engine-0.1.10.tar.gz", hash = "sha256:b71daa3da44e63a7a11eb8d01a2a3582d90b2232161c81f0ea5da7721ec9a091"},
 ]
 
 [[package]]
@@ -1623,7 +1623,7 @@ files = [
 
 [[package]]
 name = "pystac-generator"
-version = "0.3.28"
+version = "0.3.31"
 requires_python = ">=3.11"
 summary = "A python package and CLI tool for generating STAC catalog from spatial data files"
 groups = ["default"]
@@ -1641,8 +1641,8 @@ dependencies = [
     "timezonefinder>=6.5.5",
 ]
 files = [
-    {file = "pystac_generator-0.3.28-py3-none-any.whl", hash = "sha256:d506ddc7cc20e7d4df41159bffc93d487b18775450c3fe7f0dbd0d78c48b8dbf"},
-    {file = "pystac_generator-0.3.28.tar.gz", hash = "sha256:6e411884b15a1f2b3693bea5dbd05b1f2e4fec9c927cac760fe21336fcc70f19"},
+    {file = "pystac_generator-0.3.31-py3-none-any.whl", hash = "sha256:32d5b09a87c4963cb66eaf4747ead91e1c2f23ecdd3901cd28b390aa474e2fab"},
+    {file = "pystac_generator-0.3.31.tar.gz", hash = "sha256:a2d2913a19ed722a3cc3d1ab337fdf499b63ddf6c3f55aac9a9ceb97ef12eb96"},
 ]
 
 [[package]]
