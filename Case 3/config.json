@@ -1,7 +1,7 @@
 [
     {
         "id": "NSW_SOC_0_5",
-        "location": "./nsw_soil_datasets/NSW_SOCmass_means_allDepths to 30cm_220901reduced/NSW_SOCm0_5_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_SOCm0_5_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -20,7 +20,7 @@
     },
     {
         "id": "NSW_SOC_5_15",
-        "location": "./nsw_soil_datasets/NSW_SOCmass_means_allDepths to 30cm_220901reduced/NSW_SOCm5_15_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_SOCm5_15_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -39,7 +39,7 @@
     },
     {
         "id": "NSW_SOC_15_30",
-        "location": "./nsw_soil_datasets/NSW_SOCmass_means_allDepths to 30cm_220901reduced/NSW_SOCm15_30_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_SOCm15_30_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -58,7 +58,7 @@
     },
     {
         "id": "NSW_SOC_0_10",
-        "location": "./nsw_soil_datasets/NSW_SOCmass_means_allDepths to 30cm_220901reduced/NSW_SOCm0_10_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_SOCm0_10_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -77,7 +77,7 @@
     },
     {
         "id": "NSW_SOC_10_30",
-        "location": "./nsw_soil_datasets/NSW_SOCmass_means_allDepths to 30cm_220901reduced/NSW_SOCm10_30_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_SOCm10_30_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -96,7 +96,7 @@
     },
     {
         "id": "NSW_SOC_0_30",
-        "location": "./nsw_soil_datasets/NSW_SOCmass_means_allDepths to 30cm_220901reduced/NSW_SOCm0_30_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_SOCm0_30_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -115,7 +115,7 @@
     },
     {
         "id": "NSW_pH_0_5",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH0_5_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH0_5_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -134,7 +134,7 @@
     },
     {
         "id": "NSW_pH_5_15",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH5_15_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH5_15_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -153,7 +153,7 @@
     },
     {
         "id": "NSW_pH_15_30",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH15_30_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH15_30_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -172,7 +172,7 @@
     },
     {
         "id": "NSW_pH_30_60",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH30_60_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH30_60_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -191,7 +191,7 @@
     },
     {
         "id": "NSW_pH_60_100",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH60_100_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH60_100_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -210,7 +210,7 @@
     },
     {
         "id": "NSW_pH_100_200",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH100_200_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH100_200_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -229,7 +229,7 @@
     },
     {
         "id": "NSW_pH_0_10",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH0_10_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH0_10_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -248,7 +248,7 @@
     },
     {
         "id": "NSW_pH_10_30",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH10_30_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH10_30_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -267,7 +267,7 @@
     },
     {
         "id": "NSW_pH_0_30",
-        "location": "./nsw_soil_datasets/ph_means_alldepthto2m_220901/NSW_pH0_30_mean_220901reduced.tif",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/NSW_pH0_30_mean_220901reduced.tif",
         "collection_date": "2022-09-01",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -286,7 +286,7 @@
     },
     {
         "id": "rainfall",
-        "location": "./nsw_soil_datasets/rainfall.tiff",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/rainfall.tif",
         "collection_date": "2009-12-31",
         "collection_time": "00:00:00",
         "epsg": 4283,
@@ -305,7 +305,7 @@
     },
     {
         "id": "temperature",
-        "location": "./nsw_soil_datasets/temperature.tiff",
+        "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-3-files/temperature.tif",
         "collection_date": "2009-12-31",
         "collection_time": "00:00:00",
         "epsg": 4283,
