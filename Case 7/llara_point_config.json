@@ -11,48 +11,55 @@
         "timezone": "utc",
         "column_info": [
             {
-                "name": "ECa",
-                "description": "ECa"
+                "name": "ECa"
             },
             {
-                "name": "GammaK",
-                "description": "GammaK"
+                "name": "GammaK"
             },
             {
-                "name": "DEM",
-                "description": "DEM"
+                "name": "Clay"
             },
             {
-                "name": "NDVI10",
-                "description": "NDVI10"
+                "name": "Silt"
             },
             {
-                "name": "NDVImed",
-                "description": "NDVImed"
+                "name": "Sand"
             },
             {
-                "name": "NDVI90",
-                "description": "NDVI90"
+                "name": "pH"
             },
             {
-                "name": "Clay",
-                "description": "Clay"
+                "name": "EC"
             },
             {
-                "name": "Silt",
-                "description": "Silt"
+                "name": "Organic Carbon"
             },
             {
-                "name": "Sand",
-                "description": "Sand"
+                "name": "Organic Matter"
             },
             {
-                "name": "pH",
-                "description": "pH"
+                "name": "Total Carbon (Combustion)"
             },
             {
-                "name": "EC",
-                "description": "EC"
+                "name": "Inorganic carbon (TC-OC)"
+            },
+            {
+                "name": "Exch. Calcium - Method 15C1"
+            },
+            {
+                "name": "Exch. Magnesium - Method 15C1"
+            },
+            {
+                "name": "Exch. Potassium - Method 15C1"
+            },
+            {
+                "name": "Exch. Sodium - Method 15C1"
+            },
+            {
+                "name": "Cation Exchange Capacity - Method 15C1"
+            },
+            {
+                "name": "ESP"
             }
         ]
     }
