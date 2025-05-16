@@ -174,3 +174,8 @@ dev_notebooks/
 generated/
 **/scratch/*
 **/*.tif.aux.xml
+
+# Intermediate files
+*.RO-Crate.zip
+**/stac/
+**/results/
