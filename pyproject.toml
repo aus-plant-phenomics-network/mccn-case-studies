@@ -8,22 +8,9 @@ authors = [
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
-dependencies = ["mccn-engine>=0.1.12", "scikit-learn>=1.6.1"]
+dependencies = ["mccn-engine>=0.1.14", "scikit-learn>=1.6.1"]
 
 
 [tool.pdm]
 distribution = false
-
-[tool.pdm.dev-dependencies]
-jupyter = [
-    "jupyterlab>=4.4.1",
-]
-dev = [
-    "-e file:///${PROJECT_ROOT}/../mccn-engine#egg=mccn-engine",
-]
-[dependency-groups]
-jupyter = [
-    "ipykernel>=6.29.5",
-    "jupyter>=1.1.1",
-]
 
