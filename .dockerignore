@@ -1,0 +1,4 @@
+.venv
+.vscode 
+.pdm-python
+.python-version
