@@ -1,0 +1,76 @@
+{
+  "type": "Collection",
+  "id": "Collection",
+  "stac_version": "1.1.0",
+  "description": "Auto-generated Stac Item",
+  "links": [
+    {
+      "rel": "root",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/collection.json",
+      "type": "application/json",
+      "title": "Auto-generated Stac Item"
+    },
+    {
+      "rel": "item",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/soil_measurement/soil_measurement.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/L1Boundary/L1Boundary.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/L3Boundary/L3Boundary.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/L4Boundary/L4Boundary.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/L1_2017_wheat/L1_2017_wheat.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/L3_2017_wheat/L3_2017_wheat.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/L4_2017_wheat/L4_2017_wheat.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "self",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Auto-generated Stac Item",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          149.818628,
+          -30.28599557,
+          149.9019787895862,
+          -30.2554679437481
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2017-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -3,7 +3,7 @@
         "id": "soil_measurement",
         "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/LlaraCampey/soil_data.csv",
         "collection_date": "2016-01-01",
-        "collection_time": "10:00:00",
+        "collection_time": "00:00:00",
         "X": "Long",
         "Y": "Lat",
         "Z": "mid-depth",
@@ -30,36 +30,6 @@
             },
             {
                 "name": "EC"
-            },
-            {
-                "name": "Organic Carbon"
-            },
-            {
-                "name": "Organic Matter"
-            },
-            {
-                "name": "Total Carbon (Combustion)"
-            },
-            {
-                "name": "Inorganic carbon (TC-OC)"
-            },
-            {
-                "name": "Exch. Calcium - Method 15C1"
-            },
-            {
-                "name": "Exch. Magnesium - Method 15C1"
-            },
-            {
-                "name": "Exch. Potassium - Method 15C1"
-            },
-            {
-                "name": "Exch. Sodium - Method 15C1"
-            },
-            {
-                "name": "Cation Exchange Capacity - Method 15C1"
-            },
-            {
-                "name": "ESP"
             }
         ]
     }
