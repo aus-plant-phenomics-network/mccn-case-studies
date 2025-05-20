@@ -88,7 +88,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/LlaraCampey/L3_2017_wheat.txt",
+      "href": "data/L3_2017_wheat.txt",
       "type": "text/csv",
       "description": "Raw csv data",
       "roles": [
