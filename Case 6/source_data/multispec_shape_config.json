@@ -1,0 +1,41 @@
+[
+  {
+    "id": "multispec_gilbert_2022",
+    "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-5-files/shp.zip",
+    "layer": "gat_22_shp_hiphen_final",
+    "collection_date": "2022-10-17T00:00:00Z",
+    "collection_time": "00:00:00Z",
+    "timezone": "UTC",
+    "geometry_type": "Polygon",
+    "column_info": [
+      {
+        "name": "plot_id",
+        "description": "Plot ID for joining with biomass data"
+      }
+    ],
+    "join_config": {
+      "file": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-5-files/filtered_multispec_aggregated.csv",
+      "left_on": "plot_id",
+      "right_on": "plot_id",
+      "date_column": "date",
+      "column_info": [
+        {
+          "name": "plot_id",
+          "description": "Plot ID for joining with spatial data"
+        },
+        {
+          "name": "median_ndvi",
+          "description": "median_ndvi"
+        },
+        {
+          "name": "median_savi",
+          "description": "median_savi"
+        },
+        {
+          "name": "median_ndre_r",
+          "description": "median_ndre_r"
+        }
+      ]
+    }
+  }
+]

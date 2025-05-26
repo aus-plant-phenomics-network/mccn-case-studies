@@ -1,0 +1,202 @@
+[{
+  "id": "gilbert_ms_early",
+  "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-5-files/UQ_GilbertN_danNVT_2022-07-28_10-00-00_Altum_bgren_20m_transparent_reflectance_packed_10mb.tif",
+  "collection_date": "2022-07-28",
+  "collection_time": "10:00:00",
+  "epsg": 28356,
+  "band_info": [
+      { 
+          "name": "blue", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 39712.37,
+          "non_zero_count": 273604418
+      },
+      { 
+          "name": "green", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 39986.90,
+          "non_zero_count": 273546163
+      },
+      { 
+          "name": "red", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 39844.54,
+          "non_zero_count": 273499855
+      },
+      { 
+          "name": "nir", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 40549.98,
+          "non_zero_count": 273531632
+      },
+      { 
+          "name": "red_edge", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 41893.90,
+          "non_zero_count": 273487735
+      },
+      { 
+          "name": "mask", 
+          "data_type": "uint16", 
+          "min": 65528, 
+          "max": 65535,
+          "mean": 65534.88,
+          "non_zero_count": 273633948
+      },
+      { 
+          "name": "thermal", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 26189.03,
+          "non_zero_count": 109349314
+      }
+  ],
+  "width": 27555,
+  "height": 37873
+},
+{
+  "id": "gilbert_ms_mid",
+  "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-5-files/UQ_GilbertN_danNVT_2022-08-08_10-00-00_Altum_bgren_20m_transparent_reflectance_packed_10mb.tif",
+  "collection_date": "2022-08-08",
+  "collection_time": "10:00:00",
+  "epsg": 28356,
+  "band_info": [
+      { 
+          "name": "blue", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 37854.39,
+          "non_zero_count": 340667072
+      },
+      { 
+          "name": "green", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 38130.18,
+          "non_zero_count": 340578253
+      },
+      { 
+          "name": "red", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 37931.38,
+          "non_zero_count": 340427061
+      },
+      { 
+          "name": "nir", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 38773.65,
+          "non_zero_count": 340564524
+      },
+      { 
+          "name": "red_edge", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 41017.38,
+          "non_zero_count": 340484911
+      },
+      { 
+          "name": "mask", 
+          "data_type": "uint16", 
+          "min": 26848, 
+          "max": 65535,
+          "mean": 50218.83,
+          "non_zero_count": 340727752
+      },
+      { 
+          "name": "thermal", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 28015.80,
+          "non_zero_count": 145658954
+      }
+  ],
+  "width": 27555,
+  "height": 37873
+},
+{
+  "id": "gilbert_ms_late",
+  "location": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/case-study-5-files/UQ_GilbertN_danNVT_2022-09-18_10-00-00_Altum_bgren_20m_transparent_reflectance_packed_10mb.tif",
+  "collection_date": "2022-09-18",
+  "collection_time": "10:00:00",
+  "epsg": 28356,
+  "band_info": [
+      { 
+          "name": "blue", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 37890.57,
+          "non_zero_count": 387880074
+      },
+      { 
+          "name": "green",
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 38315.76,
+          "non_zero_count": 387765199
+      },
+      { 
+          "name": "red", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 37950.10,
+          "non_zero_count": 387743664
+      },
+      { 
+          "name": "nir", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 39155.14,
+          "non_zero_count": 387884847
+      },
+      { 
+          "name": "red_edge", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 43895.58,
+          "non_zero_count": 387858079
+      },
+      { 
+          "name": "mask", 
+          "data_type": "uint16", 
+          "min": 65526, 
+          "max": 65535,
+          "mean": 65534.84,
+          "non_zero_count": 387912630
+      },
+      { 
+          "name": "thermal", 
+          "data_type": "uint16", 
+          "min": 0, 
+          "max": 65535,
+          "mean": 28008.17,
+          "non_zero_count": 165785069
+      }
+  ],
+  "width": 27555,
+  "height": 37873
+}
+]
