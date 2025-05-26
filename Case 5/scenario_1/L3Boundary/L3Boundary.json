@@ -3872,7 +3872,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/LlaraCampey/boundary_wgs84.zip",
+      "href": "data/boundary_wgs84.zip",
       "type": "application/x-shapefile",
       "description": "Raw vector data",
       "roles": [
