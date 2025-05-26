@@ -8,8 +8,8 @@ Climate change increases the frequency of extreme weather events, affecting the 
 
 ## Response
 The MCCN project is based on the long-term goals within the MCCN to develop end-to-end pipelines for preparing, publishing, aggregating and analysing plant phenomics data following the FAIR data principles. MCCN has developed two modules to address these needs:
-- [**stac-generator**]([url](https://github.com/aus-plant-phenomics-network/stac-generator)) - Simplify configuration of STAC metadata describing raster, vector and tabular (point) data assets for import by the MCCN engine.
-- [**mccn-engine**]([url](https://github.com/aus-plant-phenomics-network/mccn-engine) - Import assets described with STAC metadata for inclusion in an [xarray]([url](https://docs.xarray.dev/en/stable/index.html)) data cube ready for visualisation, analysis and export.
+- [**stac-generator**](https://github.com/aus-plant-phenomics-network/stac-generator) - Simplify configuration of STAC metadata describing raster, vector and tabular (point) data assets for import by the MCCN engine.
+- [**mccn-engine**](https://github.com/aus-plant-phenomics-network/mccn-engine) - Import assets described with STAC metadata for inclusion in an [xarray](https://docs.xarray.dev/en/stable/index.html) data cube ready for visualisation, analysis and export.
 
 ## Who can benefit
 - Agricultural industry
@@ -24,7 +24,7 @@ This repository contains code and sample data for the following case studies. No
 Aggregate observations of _Caladenia_ orchids in the ACT to analyse the relationship between records and the protection status and vegetation cover of the locations of each species. This study demonstrates: 1) Description of spatial assets using STAC, 2) Loading heterogeneous data sources into a cube, 3) Masking data and computing simple statistics using xarray.
 
 ### Case Study 2 - Spatial projection via modelled data
-Estimate soil pH and electrical conductivity at 45 cm depth across a farm based on values collected from soil samples. This study demonstrates: 1) Description of spatial assets using STAC, 2) Loading heterogeneous data sources into a cube, 3) Spatial projection in xarray using different algorithms offered by the [pykrige]([url](https://pypi.org/project/PyKrige/)) and [rioxarray]([url](https://pypi.org/project/rioxarray/)) packages.
+Estimate soil pH and electrical conductivity at 45 cm depth across a farm based on values collected from soil samples. This study demonstrates: 1) Description of spatial assets using STAC, 2) Loading heterogeneous data sources into a cube, 3) Spatial projection in xarray using different algorithms offered by the [pykrige](https://pypi.org/project/PyKrige/) and [rioxarray](https://pypi.org/project/rioxarray/) packages.
 
 ### Case Study 3 - Select optimal survey locality
 Given a set of existing survey locations across a variable landscape, determine the optimal site to add to increase the range of surveyed environments. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation using numpy and matplotlib.
@@ -33,7 +33,7 @@ Given a set of existing survey locations across a variable landscape, determine 
 Compare Bureau of Meteorology gridded daily maximum and minimum temperature data with data from weather stations across Western Australia. This study demonstrates: 1) description of spatial assets using STAC, 2) Loading heterogeneous data sources into a cube, 3) Computation of data errors inside xarray.
 
 ### Case Study 5 - Produce farm zone map
-Use soil sample data and crop yield data to develop a zone map for a farm. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation using pykrige and [SpatialCluster]([url](https://pypi.org/project/SpatialCluster/)).
+Use soil sample data and crop yield data to develop a zone map for a farm. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation using pykrige and [SpatialCluster](https://pypi.org/project/SpatialCluster/).
 
 ### Case Study 6 - Exploration of environmental drivers of productivity
 Analyse relationship between different environmental drivers and plant yield. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation of drivers.
