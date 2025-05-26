@@ -3848,24 +3848,24 @@
   "links": [
     {
       "rel": "root",
-      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/collection.json",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 5/scenario_1/collection.json",
       "type": "application/json",
       "title": "Auto-generated Stac Item"
     },
     {
       "rel": "collection",
-      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/collection.json",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 5/scenario_1/collection.json",
       "type": "application/json",
       "title": "Auto-generated Stac Item"
     },
     {
       "rel": "self",
-      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/L3Boundary/L3Boundary.json",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 5/scenario_1/L3Boundary/L3Boundary.json",
       "type": "application/json"
     },
     {
       "rel": "parent",
-      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/collection.json",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 5/scenario_1/collection.json",
       "type": "application/json",
       "title": "Auto-generated Stac Item"
     }

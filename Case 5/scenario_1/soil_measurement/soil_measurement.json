@@ -4,91 +4,105 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
   ],
-  "id": "L1_2017_wheat",
+  "id": "soil_measurement",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          149.861987,
-          -30.263928
+          149.900733,
+          -30.28599557
         ],
         [
-          149.861987,
-          -30.260343
+          149.900733,
+          -30.25741709
         ],
         [
-          149.859501,
-          -30.260343
+          149.818628,
+          -30.25741709
         ],
         [
-          149.859501,
-          -30.263928
+          149.818628,
+          -30.28599557
         ],
         [
-          149.861987,
-          -30.263928
+          149.900733,
+          -30.28599557
         ]
       ]
     ]
   },
   "bbox": [
-    149.859501,
-    -30.263928,
-    149.861987,
-    -30.260343
+    149.818628,
+    -30.28599557,
+    149.900733,
+    -30.25741709
   ],
   "properties": {
     "timezone": "utc",
     "stac_generator": {
       "column_info": [
         {
-          "name": "yield_t_ha",
-          "description": "yield (t/ha)"
+          "name": "ECa"
         },
         {
-          "name": "moisture"
+          "name": "GammaK"
+        },
+        {
+          "name": "Clay"
+        },
+        {
+          "name": "Silt"
+        },
+        {
+          "name": "Sand"
+        },
+        {
+          "name": "pH"
+        },
+        {
+          "name": "EC"
         }
       ],
-      "X": "longitude",
-      "Y": "latitude",
-      "Z": "elevation_m",
+      "X": "Long",
+      "Y": "Lat",
+      "Z": "mid-depth",
       "epsg": 4326
     },
-    "start_datetime": "2017-01-01T00:00:00Z",
-    "end_datetime": "2017-01-01T00:00:00Z",
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2016-01-01T00:00:00Z",
     "proj:code": "EPSG:4326",
     "proj:wkt2": "GEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"geodetic latitude (Lat)\",north,ORDER[1],ANGLEUNIT[\"degree\",0.0174532925199433]],AXIS[\"geodetic longitude (Lon)\",east,ORDER[2],ANGLEUNIT[\"degree\",0.0174532925199433]],USAGE[SCOPE[\"Horizontal component of 3D system.\"],AREA[\"World.\"],BBOX[-90,-180,90,180]],ID[\"EPSG\",4326]]",
-    "datetime": "2017-01-01T00:00:00Z"
+    "datetime": "2016-01-01T00:00:00Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/collection.json",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 5/scenario_1/collection.json",
       "type": "application/json",
       "title": "Auto-generated Stac Item"
     },
     {
       "rel": "collection",
-      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/collection.json",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 5/scenario_1/collection.json",
       "type": "application/json",
       "title": "Auto-generated Stac Item"
     },
     {
       "rel": "self",
-      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/L1_2017_wheat/L1_2017_wheat.json",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 5/scenario_1/soil_measurement/soil_measurement.json",
       "type": "application/json"
     },
     {
       "rel": "parent",
-      "href": "/home/harry/CodingProject/mccn-case-studies/Case 7/scenario_1/collection.json",
+      "href": "/home/harry/CodingProject/mccn-case-studies/Case 5/scenario_1/collection.json",
       "type": "application/json",
       "title": "Auto-generated Stac Item"
     }
   ],
   "assets": {
     "data": {
-      "href": "data/L1_2017_wheat.txt",
+      "href": "https://object-store.rc.nectar.org.au/v1/AUTH_2b454f47f2654ab58698afd4b4d5eba7/mccn-test-data/LlaraCampey/soil_data.csv",
       "type": "text/csv",
       "description": "Raw csv data",
       "roles": [
