@@ -1,31 +1,47 @@
-# Multi-scalar Crop Characterisation Network (MCCN)
+# Multi-scalar Crop Characterisation Network (MCCN) - Case Studies
 
 ## Purpose
-Supporting the agricultural sector to understand crop-environment relationships.
+The MCCN project is to deliver tools tp assist the agricultural sector to understand crop-environment relationships, specifically by facilitating generation of data cubes for spatiotemporal data. This repository contains Jupyter notebooks to demonstrate the functionality of the MCCN data cube components.
 
-## The Challenge
+## Challenge
 Climate change increases the frequency of extreme weather events, affecting the agricultural sector. Farmers face challenges in managing practices and selecting optimal crop breeds. Diverse data sources complicate understanding crop-environment relationships.
 
-## The Response
-Standardising access to Australia’s crop research data. Developing a framework and tools for sharing data according to FAIR principles. Enabling researchers to compare data on crop growth, performance, and environmental factors. This model can be expanded to the entire agricultural sector.
+## Response
+The MCCN project is based on the long-term goals within the MCCN to develop end-to-end pipelines for preparing, publishing, aggregating and analysing plant phenomics data following the FAIR data principles. MCCN has developed two modules to address these needs:
+- [**stac-generator**](https://github.com/aus-plant-phenomics-network/stac-generator) - Simplify configuration of STAC metadata describing raster, vector and tabular (point) data assets for import by the MCCN engine.
+- [**mccn-engine**](https://github.com/aus-plant-phenomics-network/mccn-engine) - Import assets described with STAC metadata for inclusion in an [xarray](https://docs.xarray.dev/en/stable/index.html) data cube ready for visualisation, analysis and export.
 
-## Who Will Benefit
+## Who can benefit
 - Agricultural industry
 - Exporters
 - Researchers
 - Industry
 
+## Case Studies
+This repository contains code and sample data for the following case studies. Note that the analyses here are to demonstrate the software and result should not be considered scientifically or statistically meaningful. No effort has been made to address bias in samples, and sample data may not be available at sufficient density to warrant analysis. All case studies end with generation of an RO-Crate data package including the source data, the notebook and generated outputs, including netcdf exports of the datacubes themselves.
+
+### Case Study 1 - Evaluate impact from environmental events/pressures
+Aggregate observations of _Caladenia_ orchids in the ACT to analyse the relationship between records and the protection status and vegetation cover of the locations of each species. This study demonstrates: 1) Description of spatial assets using STAC, 2) Loading heterogeneous data sources into a cube, 3) Masking data and computing simple statistics using xarray.
+
+### Case Study 2 - Spatial projection via modelled data
+Estimate soil pH and electrical conductivity at 45 cm depth across a farm based on values collected from soil samples. This study demonstrates: 1) Description of spatial assets using STAC, 2) Loading heterogeneous data sources into a cube, 3) Spatial projection in xarray using different algorithms offered by the [pykrige](https://pypi.org/project/PyKrige/) and [rioxarray](https://pypi.org/project/rioxarray/) packages.
+
+### Case Study 3 - Select optimal survey locality
+Given a set of existing survey locations across a variable landscape, determine the optimal site to add to increase the range of surveyed environments. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation using numpy and matplotlib.
+
+### Case Study 4 - Validating gridded data products
+Compare Bureau of Meteorology gridded daily maximum and minimum temperature data with data from weather stations across Western Australia. This study demonstrates: 1) description of spatial assets using STAC, 2) Loading heterogeneous data sources into a cube, 3) Computation of data errors inside xarray.
+
+### Case Study 5 - Exploration of environmental drivers of productivity
+Analyse relationship between different environmental drivers and plant yield. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation of drivers.
+
+### Case Study 6 - Produce farm zone map
+Use soil sample data and crop yield data to develop a zone map for a farm. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation using pykrige and [SpatialCluster](https://pypi.org/project/SpatialCluster/).
+
 ## Ownership and History
-- **Contact partner:** Donald Hobern ([donald.hobern@adelaide.edu.au](mailto:donald.hobern@adelaide.edu.au)), Dengke (Bailey) Li ([dengke.li@adelaide.edu.au](mailto:dengke.li@adelaide.edu.au))
+- **Contact partner:** Donald Hobern ([donald.hobern@adelaide.edu.au](mailto:donald.hobern@adelaide.edu.au))
 
-## Update Log
-
-| Review Date | Updated by | Summary of Change(s) |
-|-------------|------------|----------------------|
-|  20/06/2024 | 20/06/2024 | Created              |
-
-
-## Overview
+## MCCN project details
 **Project Lead:** Australian Plant Phenomics Network (APPN)
 
 **Beneficiaries:** Agricultural industry, exporters, researchers, industry
@@ -34,14 +50,10 @@ Standardising access to Australia’s crop research data. Developing a framework
 
 **Time Frame:** 2023 to 2025
 
-**Current Phase:** In progress
+**Current Phase:** Completed
 
-**DOI:** 10.47486/DC105
+**DOI:** [10.47486/DC105](https://ardc.edu.au/project/multi-scalar-crop-characterisation-network-mccn/)
 
 ## Key Resources
-- [MCCN Case Studies](https://uao365.sharepoint.com/:w:/r/sites/DataTeamtest/Shared%20Documents/MCCN/Reports/Cases/MCCN%20Case%20Studies.docx?d=wc446740149d040c79f3a0208a8914c05&csf=1&web=1&e=kMsnFR)
-- [Software Specification](https://uao365.sharepoint.com/:w:/r/sites/DataTeamtest/Shared%20Documents/MCCN/Reports/MCCN%20Software%20Specification%20v.%201.1.docx?d=w48b2fad3681845d78129b23bfa7efa36&csf=1&web=1&e=PuMVm6)
-- [Data Sharing Policy and Metadata Requirement](https://uao365.sharepoint.com/:w:/r/sites/DataTeamtest/Shared%20Documents/MCCN/Reports/MCCN%20Data%20Sharing%20Policy%20and%20Metadata%20Requirements%20v.%201.1.docx?d=w685f01f15fcb4de9a2945de6a5385971&csf=1&web=1&e=dgJePi)
-- Components
-![image](https://github.com/aus-plant-phenomics-network/mccn-case-studies/assets/4349417/86533a74-6a08-4c72-9ac9-5a43f87a2230)
-
+- [**STAC generator**](https://github.com/aus-plant-phenomics-network/stac-generator)
+- [**MCCN Engine**](https://github.com/aus-plant-phenomics-network/mccn-engine)

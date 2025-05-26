@@ -1,0 +1,62 @@
+[
+    {
+        "id": "L1_2017_wheat",
+        "location": "data/L1_2017_wheat.txt",
+        "epsg": "4326",
+        "collection_date": "2017-01-01",
+        "collection_time": "00:00",
+        "timezone": "utc",
+        "X": "longitude",
+        "Y": "latitude",
+        "Z": "elevation_m",
+        "column_info": [
+            {
+                "name": "yield_t_ha",
+                "description": "yield (t/ha)"
+            },
+            {
+                "name": "moisture"
+            }
+        ]
+    },
+    {
+        "id": "L3_2017_wheat",
+        "location": "data/L3_2017_wheat.txt",
+        "epsg": "4326",
+        "collection_date": "2017-01-01",
+        "collection_time": "00:00",
+        "timezone": "utc",
+        "X": "longitude",
+        "Y": "latitude",
+        "Z": "elevation_m",
+        "column_info": [
+            {
+                "name": "yield_t_ha",
+                "description": "yield (t/ha)"
+            },
+            {
+                "name": "moisture"
+            }
+        ]
+    },
+    {
+        "id": "L4_2017_wheat",
+        "location": "data/L4_2017_wheat.txt",
+        "epsg": "4326",
+        "collection_date": "2017-01-01",
+        "collection_time": "00:00",
+        "timezone": "utc",
+        "X": "longitude",
+        "Y": "latitude",
+        "Z": "elevation_m",
+        "column_info": [
+            {
+                "name": "yield_t_ha",
+                "description": "yield (t/ha)"
+            },
+            {
+                "name": "moisture"
+            }
+        ]
+    }
+]

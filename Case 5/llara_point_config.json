@@ -1,0 +1,36 @@
+[
+    {
+        "id": "soil_measurement",
+        "location": "data/soil_data.csv",
+        "collection_date": "2016-01-01",
+        "collection_time": "00:00:00",
+        "X": "Long",
+        "Y": "Lat",
+        "Z": "mid-depth",
+        "epsg": 4326,
+        "timezone": "utc",
+        "column_info": [
+            {
+                "name": "ECa"
+            },
+            {
+                "name": "GammaK"
+            },
+            {
+                "name": "Clay"
+            },
+            {
+                "name": "Silt"
+            },
+            {
+                "name": "Sand"
+            },
+            {
+                "name": "pH"
+            },
+            {
+                "name": "EC"
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[project]
+name = "mccn-case-studies"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "harryle", email = "lehoangsonsg@gmail.com"},
+]
+dependencies = ["pykrige>=1.7.2", "rioxarray>=0.19.0", "mccn-engine>=0.1.14", "scikit-learn>=1.6.1", "rocrate>=0.13.0"]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[dependency-groups]
+jupyter = [
+    "jupyter>=1.1.1",
+    "ipykernel>=6.29.5",
+]
