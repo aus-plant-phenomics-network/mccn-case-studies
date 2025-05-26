@@ -35,7 +35,7 @@ Compare Bureau of Meteorology gridded daily maximum and minimum temperature data
 ### Case Study 5 - Produce farm zone map
 Use soil sample data and crop yield data to develop a zone map for a farm. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation using pykrige and [KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans).
 
-### Case Study 5 - Exploration of environmental drivers of productivity
+### Case Study 6 - Exploration of environmental drivers of productivity
 Analyse relationship between different environmental drivers and plant yield. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation of drivers.
 
 ## Ownership and History
