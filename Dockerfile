@@ -1,6 +1,6 @@
 FROM python:3.11-slim AS builder 
 WORKDIR /app
-COPY pyproject.toml pdm.lock /app 
+COPY pyproject.toml pdm.lock /app/
 RUN pip install pdm 
 RUN python -m pdm export -o requirements.txt 
 

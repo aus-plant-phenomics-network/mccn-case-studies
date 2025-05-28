@@ -3,7 +3,7 @@
 Requires docker
 
 ```bash
-sudo docker build -t mccn-case-study-image .
+sudo docker build -t hoangsonle95/mccn-case-study-image:25-05-26 .
 ```
 
 ```bash
