@@ -5,9 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "harryle", email = "lehoangsonsg@gmail.com"},
 ]
-
 dependencies = ["pykrige>=1.7.2", "rioxarray>=0.19.0", "mccn-engine>=0.1.15", "scikit-learn>=1.6.1", "rocrate>=0.13.0"]
-
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
