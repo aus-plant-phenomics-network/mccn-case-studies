@@ -1,4 +1,4 @@
-# Case Study 6 - Environmental Correlation for Productivity
+# Case Study 6 - Environmental Correlates for Productivity
 ## Description 
 Analyse relationship between different environmental drivers and plant yield. This study demonstrates: 1) Loading heterogeneous data sources into a cube, and 2) Analysis and visualisation of drivers.
 This study combines a suite of spatial variables at different scales across multiple sites to analyse the factors correlated with a variable of interest.
