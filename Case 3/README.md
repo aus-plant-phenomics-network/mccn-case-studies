@@ -5,12 +5,12 @@ Based on a mix of environmental parameters and a set of existing sample sites, s
 ## Data Sources
 The primary goal for this case study is to demonstrate being able to import a set of environmental values for different sites and then use these to identify a subset that maximises spread across the various environmental dimensions.
 
-This is a simple implementation that uses four environmental attributes imported for all Australia (or a subset like NSW) at a moderate grid scale:
+This is a simple implementation that uses four environmental attributes imported for NSW at a moderate grid scale:
 
-1. Soil water pH (0-5cm) - see https://esoil.io/TERNLandscapes/Public/Pages/SLGA/ProductDetails-SoilAttributes.html
-2. Soil organic carbon (0-5cm) - see https://esoil.io/TERNLandscapes/Public/Pages/SLGA/ProductDetails-SoilAttributes.html
-3. Annual mean rainfall
-4. Annual mean temperature
+1. Soil water pH (0-5cm) - https://datasets.seed.nsw.gov.au/dataset/digital-soil-maps-for-key-soil-properties-over-new-south-wales-version-2-0
+2. Soil organic carbon (0-5cm) - https://datasets.seed.nsw.gov.au/dataset/digital-soil-maps-for-key-soil-properties-over-new-south-wales-version-2-0
+3. Annual mean rainfall - https://datasets.seed.nsw.gov.au/dataset/anuclim-annual-mean-rainfall-raster-layer
+4. Annual mean temperature - https://datasets.seed.nsw.gov.au/dataset/anuclim-annual-mean-temperature-raster-layer
 
 Notes:
 - The first two can be imported directly as layers from SLGA. The others are probably available online in suitable forms at a slightly better grid resolution and can also be imported directly.
